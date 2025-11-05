@@ -13,22 +13,34 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Sip & Play - Commercial Kitchens",
+  title: "Sip & Play - Commercial Kitchenware",
   description:
-    "Transforming culinary dreams into reality with world-class commercial kitchen solutions. Expert design, premium equipment, and professional installation services.",
+    "Your trusted partner for premium commercial kitchenware and complete kitchen solutions. Browse thousands of products for restaurants, hotels, and catering businesses.",
   keywords: [
-    "commercial kitchens",
-    "kitchen design",
+    "commercial kitchenware",
     "restaurant equipment",
-    "kitchen installation",
-    "commercial kitchen solutions",
+    "kitchen supplies",
+    "commercial cookware",
+    "bulk kitchenware",
   ],
   authors: [{ name: "Sip & Play" }],
+  icons: {
+    icon: "/sipnplay-logo.png",
+    apple: "/sipnplay-logo.png",
+  },
   openGraph: {
-    title: "Sip & Play - Commercial Kitchens",
+    title: "Sip & Play - Commercial Kitchenware",
     description:
-      "World-class commercial kitchen solutions for cafes, restaurants, and hotels.",
+      "Premium commercial kitchenware supplier for restaurants, hotels, cafes, and catering businesses across Sri Lanka.",
     type: "website",
+    images: [
+      {
+        url: "/sipnplay-logo.png",
+        width: 1200,
+        height: 630,
+        alt: "Sip & Play Commercial Kitchenware",
+      },
+    ],
   },
 };
 
