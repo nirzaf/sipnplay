@@ -1,0 +1,11 @@
+export { AnimatedBackground } from './AnimatedBackground';
+export { Header } from './Header';
+export { Hero } from './Hero';
+export { Services } from './Services';
+export { Stats } from './Stats';
+export { ComingSoon } from './ComingSoon';
+export { Gallery } from './Gallery';
+export { WhyChooseUs } from './WhyChooseUs';
+export { CTA } from './CTA';
+export { Footer } from './Footer';
+export { WhatsAppButton } from './WhatsAppButton';
