@@ -1,10 +1,8 @@
 import {
   Header,
   Hero,
-  ComingSoon,
   Stats,
   Services,
-  Gallery,
   WhyChooseUs,
   CTA,
   Footer,
@@ -20,20 +18,14 @@ export default function Home() {
       {/* Header */}
       <Header />
 
-      {/* Hero Section */}
+      {/* Hero Section with Coming Soon Message */}
       <Hero />
-
-      {/* Coming Soon Banner */}
-      <ComingSoon />
 
       {/* Stats Section */}
       <Stats />
 
       {/* Services Section */}
       <Services />
-
-      {/* Gallery Section */}
-      <Gallery />
 
       {/* Why Choose Us Section */}
       <WhyChooseUs />
