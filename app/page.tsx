@@ -1,5 +1,4 @@
 import {
-  AnimatedBackground,
   Header,
   Hero,
   ComingSoon,
@@ -14,10 +13,7 @@ import {
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white overflow-hidden">
-      {/* Animated Background Elements */}
-      <AnimatedBackground />
-
+    <div className="min-h-screen bg-white text-gray-900 overflow-hidden">
       {/* Floating WhatsApp Button */}
       <WhatsAppButton />
 

@@ -9,6 +9,8 @@ import {
   Package,
   Headphones,
   CheckCircle,
+  CookingPot,
+  Warehouse,
   type LucideIcon,
 } from 'lucide-react';
 
@@ -73,69 +75,69 @@ export interface SiteConfig {
 export const siteConfig: SiteConfig = {
   company: {
     name: 'SIP & PLAY',
-    tagline: 'Commercial Kitchens',
+    tagline: 'Commercial Kitchenware',
     whatsappNumber: '+94770757575',
     description:
-      'Transforming culinary dreams into reality with world-class commercial kitchen solutions',
+      'Your trusted partner for premium commercial kitchenware and complete kitchen solutions',
   },
   hero: {
-    title: 'Where Precision Meets Passion',
-    highlightedWords: ['Precision', 'Passion'],
+    title: 'Premium Commercial Kitchenware Solutions',
+    highlightedWords: ['Premium', 'Solutions'],
     description:
-      'We design, build, and equip bespoke commercial kitchens that are as efficient as they are inspiring. From bustling cafes to fine-dining, we bring your vision to life.',
-    ctaText: 'Get Started Today',
+      'From high-grade cookware to industrial equipment, we supply everything you need to run a professional kitchen. Serving restaurants, hotels, cafes, and catering businesses across Sri Lanka.',
+    ctaText: 'Explore Our Range',
   },
   services: [
     {
-      icon: ChefHat,
-      title: 'Bespoke Kitchen Design',
+      icon: CookingPot,
+      title: 'Professional Cookware',
       description:
-        'Custom 3D modeling and layout planning focused on workflow, efficiency, and aesthetics tailored to your needs.',
+        'Heavy-duty pots, pans, woks, and specialty cookware designed for high-volume commercial cooking operations.',
     },
     {
       icon: Utensils,
-      title: 'Premium Equipment Supply',
+      title: 'Kitchen Utensils & Tools',
       description:
-        'Access to top-tier, durable kitchen equipment from leading brands. From ovens to refrigeration, we source the best.',
+        'Complete range of professional-grade knives, cutting boards, ladles, spatulas, and essential kitchen tools.',
     },
     {
       icon: Flame,
-      title: 'Professional Installation',
+      title: 'Cooking Equipment',
       description:
-        'Expert installation with minimal downtime, ensuring your kitchen is operational from day one.',
+        'Commercial ovens, ranges, grills, fryers, and specialized cooking equipment from trusted manufacturers.',
     },
     {
-      icon: ShoppingCart,
-      title: 'Supply Chain Solutions',
+      icon: Package,
+      title: 'Storage & Organization',
       description:
-        'Complete procurement and logistics support to keep your kitchen running smoothly.',
+        'Food storage containers, shelving units, prep tables, and organizational solutions for efficient kitchen workflow.',
     },
     {
-      icon: Users,
-      title: 'Expert Consultation',
+      icon: Warehouse,
+      title: 'Bulk Supply Solutions',
       description:
-        'Professional guidance and support throughout your kitchen planning and setup journey.',
+        'Competitive pricing for bulk orders. We supply hotels, restaurants, catering companies, and institutional kitchens.',
     },
     {
       icon: Award,
-      title: 'Maintenance & Support',
+      title: 'Quality Assurance',
       description:
-        'Comprehensive after-sales support and preventive maintenance to maximize your investment.',
+        'All products meet international food safety standards. Warranty and after-sales support included.',
     },
   ],
   stats: [
-    { number: '500+', label: 'Projects Completed' },
-    { number: '15+', label: 'Years Experience' },
-    { number: '100%', label: 'Client Satisfaction' },
-    { number: '24/7', label: 'Support Available' },
+    { number: '1000+', label: 'Products in Stock' },
+    { number: '15+', label: 'Years in Business' },
+    { number: '500+', label: 'Satisfied Clients' },
+    { number: '24/7', label: 'Customer Support' },
   ],
   features: [
-    { text: 'Premium quality equipment and materials' },
-    { text: 'Expert team with years of experience' },
-    { text: 'Customized solutions for every budget' },
-    { text: 'Fast and efficient project delivery' },
-    { text: 'Comprehensive after-sales support' },
-    { text: 'Competitive pricing with no hidden costs' },
+    { text: 'Premium quality kitchenware from global brands' },
+    { text: 'Competitive wholesale and retail pricing' },
+    { text: 'Same-day delivery available in Colombo' },
+    { text: 'Customized bulk order solutions' },
+    { text: 'Warranty and after-sales service' },
+    { text: 'Expert product consultation and recommendations' },
   ],
   gallery: [
     {
@@ -171,21 +173,21 @@ export const siteConfig: SiteConfig = {
   ],
   comingSoon: {
     badge: 'COMING SOON',
-    title: "We're Cooking Something",
-    titleHighlight: 'BIG for You!',
+    title: 'Your Ultimate Online',
+    titleHighlight: 'Kitchenware Store!',
     description:
-      'Stay tuned as we prepare to unveil our most user-friendly, powerful, and revolutionary eCommerce platform for commercial kitchens!',
-    tags: ['User-Friendly', 'Lightning Fast', 'Secure', 'Innovative'],
-    subtitle: 'The wait will be worth it!',
+      'Stay tuned as we launch our comprehensive eCommerce platform. Browse thousands of products, compare prices, and order online with just a few clicks. The future of commercial kitchenware shopping is coming!',
+    tags: ['Easy Ordering', '24/7 Shopping', 'Secure Payments', 'Fast Delivery'],
+    subtitle: 'Shop smarter, cook better!',
   },
   cta: {
-    title: 'Ready to Transform Your Kitchen?',
-    description: "Contact us now and let's bring your vision to life",
+    title: 'Ready to Upgrade Your Commercial Kitchen?',
+    description: 'Get in touch for product inquiries, bulk orders, or expert advice',
     buttonText: 'Chat on WhatsApp',
-    subtitle: 'Quick response guaranteed',
+    subtitle: 'Quick quotes and expert recommendations',
   },
   footer: {
-    tagline: 'Crafting Excellence in Every Kitchen',
+    tagline: 'Equipping Professional Kitchens Since 2009',
     copyright: '2024 Sip & Play. All rights reserved.',
   },
 };
